@@ -2,6 +2,13 @@
   background-color: $backgroundColorOddSections;
   padding: 7rem 0 7rem 0;
 }
+hr {
+  width: 121%;
+  margin: 3rem auto 7rem auto;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+}
 .main__how-it-works {
   width: 50%;
   margin: 0 auto;
@@ -12,6 +19,8 @@
     margin-bottom: 4rem;
   }
   &__title {
+    width: 75%;
+    margin: auto;
     font-size: 1.8rem;
     font-weight: 500;
   }
@@ -21,13 +30,44 @@
     font-size: 1.5rem;
     & .image-wrapper {
       margin: auto;
-      width: 40%;
+      width: 100%;
+      height: 50%;
+      & [src*="hardcore"] {
+        width: 46%;
+        height: 78%;
+      }
+      & [src*="nofeedback"] {
+        width: 48%;
+        height: 99%;
+      }
+      & [src*="lightweight"] {
+        width: 55%;
+        height: 75%;
+      }
+      & [src*="feedbacksuggestions"] {
+        width: 41%;
+        height: 85%;
+      }
+      & [src*="safe"] {
+        width: 25%;
+        height: 82%;
+      }
+      & [src*="notsafe"] {
+        width: 55%;
+        height: 92%;
+      }
     }
+
+  }
+  &__before {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 0;
     & img {
       width: 100%;
     }
   }
-  &__before {
+  &__after {
     width: 30%;
     margin: auto;
     & img {
