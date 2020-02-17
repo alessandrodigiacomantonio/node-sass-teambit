@@ -18,6 +18,9 @@ hr {
   margin-bottom: 1.5rem;
   border: none;
 }
+[role="buttons"] {
+  display: inline-block;
+}
 .page-wrappe {
   max-width: 1080px;
 }

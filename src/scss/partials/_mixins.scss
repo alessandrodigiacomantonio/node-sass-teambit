@@ -1,3 +1,7 @@
-// @mixin buttons {
-//
-// }
+@mixin buttons {
+  font-size: 1.1rem;
+  color: white;
+  background-color: $tertiaryColor;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}

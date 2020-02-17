@@ -22,6 +22,10 @@ hr {
   border: none;
 }
 
+[role=buttons] {
+  display: inline-block;
+}
+
 .page-wrappe {
   max-width: 1080px;
 }
@@ -38,7 +42,7 @@ hr {
 }
 
 .header-wrapper .header__top__navbar__item:not(:first-child) {
-  margin-left: 2rem;
+  margin-left: 2.6rem;
 }
 
 .header-wrapper .header__top__navbar__item {
@@ -46,14 +50,29 @@ hr {
   font-weight: 500;
 }
 
+.header-wrapper .header__top__navbar__item[data-name="sign up"] {
+  border-radius: 10px;
+  border: 1px solid #30488f;
+  padding: 0.25rem 1rem;
+}
+
+.header-wrapper .header__top__navbar__item[data-name="sign up"] a {
+  color: #30488f;
+}
+
 .header-wrapper .header__bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 5rem auto;
 }
 
 .header-wrapper .header__bottom__txt {
   width: 50%;
+}
+
+.header-wrapper .header__bottom__txt > *:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .header-wrapper .header__bottom__txt__title {
@@ -65,8 +84,11 @@ hr {
 }
 
 .header-wrapper .header__bottom__txt__button {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: white;
+  background-color: #30488f;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
 }
 
 .header-wrapper .header__bottom__image {
@@ -75,5 +97,9 @@ hr {
 
 .header-wrapper .header__bottom__image img {
   width: 100%;
+}
+
+.header-wrapper .header__bottom p:last-child {
+  margin-top: 1rem;
 }
 
