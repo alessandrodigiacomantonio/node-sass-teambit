@@ -1,0 +1,40 @@
+.header-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto 1.5rem;
+    &__navbar__item:not(:first-child) {
+      margin-left: 2rem;
+    }
+    &__navbar__item {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+  .header__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__txt {
+      width: 50%;
+      &__title {
+        font-size: 3.3rem;
+      }
+      &__paragraph {
+        font-size: 1.8rem;
+      }
+      &__button {
+        font-size: 1.3rem;
+        color: white;
+      }
+    }
+    &__image {
+      width: 50%;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}

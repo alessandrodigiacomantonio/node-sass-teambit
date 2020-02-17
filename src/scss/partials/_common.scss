@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: $primaryColor;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  height: 2px;
+  background-color: #bdb5af;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+.page-wrappe {
+  max-width: 1080px;
+}
