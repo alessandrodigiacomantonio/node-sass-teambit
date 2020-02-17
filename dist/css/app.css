@@ -4,6 +4,8 @@
 
 /*blu*/
 
+/*salmone*/
+
 * {
   margin: 0;
   padding: 0;
@@ -37,8 +39,8 @@ hr {
 }
 
 .header-wrapper {
-  width: 80%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 0 auto 7rem;
 }
 
 .header-wrapper .header__top {
@@ -112,5 +114,51 @@ hr {
 
 .header-wrapper .header__bottom p:last-child {
   margin-top: 1rem;
+}
+
+.main__odd-section-wrapper {
+  background-color: #ffe7d2;
+  padding: 7rem 0 7rem 0;
+}
+
+.main__how-it-works {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__how-it-works > *:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.main__how-it-works__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.main__how-it-works__info {
+  displaY: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.main__how-it-works__info .image-wrapper {
+  margin: auto;
+  width: 40%;
+}
+
+.main__how-it-works__info img {
+  width: 100%;
+}
+
+.main__how-it-works__before {
+  width: 30%;
+  margin: auto;
+}
+
+.main__how-it-works__before img {
+  width: 100%;
 }
 

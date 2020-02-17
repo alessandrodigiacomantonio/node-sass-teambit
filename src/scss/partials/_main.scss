@@ -1,0 +1,37 @@
+.main__odd-section-wrapper {
+  background-color: $backgroundColorOddSections;
+  padding: 7rem 0 7rem 0;
+}
+.main__how-it-works {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  & > *:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  &__info {
+    displaY: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    & .image-wrapper {
+      margin: auto;
+      width: 40%;
+    }
+    & img {
+      width: 100%;
+    }
+  }
+  &__before {
+    width: 30%;
+    margin: auto;
+    & img {
+      width: 100%;
+    }
+  }
+}
