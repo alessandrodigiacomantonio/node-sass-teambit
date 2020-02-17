@@ -40,6 +40,10 @@
       &__button {
         @include buttons;
       }
+      &__or {
+        margin: 1rem;
+        color: $secondaryColor;
+      }
     }
     &__image {
       width: 50%;
