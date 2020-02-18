@@ -115,8 +115,8 @@ $(document).ready(function () {});
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! F:\alessandro\boolean.careers\esercitazioni\node-sass-teambit\src\js\main.js */"./src/js/main.js");
-module.exports = __webpack_require__(/*! F:\alessandro\boolean.careers\esercitazioni\node-sass-teambit\src\scss\app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! F:\alessandro\boolean.careers\Esercitazioni\node-sass-teambit\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! F:\alessandro\boolean.careers\Esercitazioni\node-sass-teambit\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })
