@@ -160,20 +160,20 @@ hr {
   padding: 7rem 0 7rem 0;
 }
 
-hr {
-  width: 121%;
-  margin: 3rem auto 7rem auto;
-  position: relative;
-  left: 50%;
-  transform: translatex(-50%);
-}
-
 .main__how-it-works {
   width: 50%;
   margin: 0 auto;
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+.main__how-it-works hr {
+  width: 121%;
+  margin: 3rem auto 7rem auto;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 .main__how-it-works > *:not(:last-child) {
