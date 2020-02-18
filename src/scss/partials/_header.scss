@@ -19,6 +19,9 @@
           color: $tertiaryColor;
         }
       }
+      &[data-name="hamburger"] {
+        display: none;
+      }
     }
   }
   hr {
@@ -31,7 +34,6 @@
     margin: 5rem auto;
     &__txt {
       width: 50%;
-
        & > *:not(.header__bottom__txt__button):not(.header__bottom__txt__or) {
         margin-bottom: 2rem;
       }
@@ -65,6 +67,16 @@
 @media screen and (max-width: 517px) {
   .header-wrapper {
     width: 90%;
+    .header__top {
+      &__navbar {
+        &__item:not([data-name="hamburger"]) {
+          display: none;
+        }
+        &__item[data-name="hamburger"] {
+          display: inline-block;
+        }
+      }
+    }
     .header__bottom {
       flex-direction: column;
       &__txt {
