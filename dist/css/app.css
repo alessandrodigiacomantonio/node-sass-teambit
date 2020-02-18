@@ -82,7 +82,7 @@ hr {
   width: 50%;
 }
 
-.header-wrapper .header__bottom__txt > *:not(:last-child) {
+.header-wrapper .header__bottom__txt > *:not(.header__bottom__txt__button):not(.header__bottom__txt__or) {
   margin-bottom: 2rem;
 }
 
@@ -103,6 +103,7 @@ hr {
 }
 
 .header-wrapper .header__bottom__txt__or {
+  display: inline-block;
   margin: 1rem;
   color: #bdb5af;
 }

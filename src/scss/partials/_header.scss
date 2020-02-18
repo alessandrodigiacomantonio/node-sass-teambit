@@ -31,7 +31,8 @@
     margin: 5rem auto;
     &__txt {
       width: 50%;
-      & > *:not(:last-child) {
+
+       & > *:not(.header__bottom__txt__button):not(.header__bottom__txt__or) {
         margin-bottom: 2rem;
       }
       &__title {
@@ -44,6 +45,7 @@
         @include buttons;
       }
       &__or {
+        display: inline-block;
         margin: 1rem;
         color: $secondaryColor;
       }
@@ -70,6 +72,9 @@
         width: 100%;
         &__button {
           display: block;
+        }
+        &__or {
+          // margin: -1rem 0 1rem 0;
         }
       }
       &__image {
